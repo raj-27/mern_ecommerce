@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    // margin: 6rem 0;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eceff1;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @media screen and (max-width: 424px) {
+        flex-direction: column;
+        width: 250px;
+        max-width: 100%;
+        padding: 1rem 0.7rem;
+        margin: 1rem auto;
+    }
+    &:hover {
+        background-color: #cfd8dc;
+    }
+    .item-img {
+        width: 50px;
+        height: 50px;
+        @media screen and (max-width: 425px) {
+            width: 100px;
+            height: 100px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .cart-text {
+        font-size: .9rem;
+        @media screen and (max-width: 425px) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 1rem 0 0 0;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        p {
+            margin: 0 0.2rem;
+        }
+    }
+    .cart-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // @media screen and (max-width: 425px) {
+        //     flex-direction: column;
+        // }
+        .update-btns {
+            display: flex;
+            margin: 0 0.2rem 0 0;
+            svg {
+                @media screen and (max-width: 425px) {
+                    font-size: 0.81rem;
+                    font-weight: 600;
+                }
+            }
+            input {
+                width: 30px;
+                margin: 0 0.31em;
+                // padding: 0.2rem 0.1rem;
+                font-weight: 600;
+                text-align: center;
+                outline: none;
+                border: none;
+                @media screen and (max-width: 425px) {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

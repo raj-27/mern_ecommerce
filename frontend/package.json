@@ -1,0 +1,46 @@
+{
+    "name": "frontend2",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "createdoc": "jsdoc src -r -d docs",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@material-ui/core": "^4.12.4",
+        "@material-ui/data-grid": "^4.0.0-alpha.37",
+        "@material-ui/icons": "^4.11.3",
+        "@material-ui/lab": "^4.0.0-alpha.61",
+        "@mui/material": "^5.10.15",
+        "@reduxjs/toolkit": "^1.8.5",
+        "axios": "^0.27.2",
+        "country-state-city": "^3.1.2",
+        "pure-react-carousel": "^1.29.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-file-base64": "^1.0.3",
+        "react-paginate": "^8.1.3",
+        "react-rating-stars-component": "^2.2.0",
+        "react-redux": "^8.0.2",
+        "react-router-dom": "^6.3.0",
+        "react-toastify": "^9.0.8",
+        "redux": "^4.2.0",
+        "redux-devtools-extension": "^2.13.9",
+        "sass": "^1.54.5",
+        "swiper": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.17",
+        "@types/react-dom": "^18.0.6",
+        "@vitejs/plugin-react": "^2.0.1",
+        "react-docgen": "^5.4.3",
+        "react-styleguidist": "^12.0.0",
+        "vite": "^3.0.7",
+        "webpack": "^5.74.0"
+    }
+}

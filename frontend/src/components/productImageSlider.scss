@@ -1,0 +1,13 @@
+.product-images-slider {
+    .swiper-slide {
+        padding: 75% 0 0 0;
+        overflow: hidden;
+        position: relative;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+}

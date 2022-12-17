@@ -1,0 +1,24 @@
+.success-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .success-heading {
+        font-size: 1.75rem;
+        margin: 1rem 0;
+        font-family: sans-serif;
+        @media screen and (max-width: 425px) {
+            font-size: 1rem;
+        }
+    }
+    .link {
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: .75rem 1.5rem;
+        color: #fff;
+        background-color: #3D5AFE;
+        border-radius: 10px
+    }
+}
